@@ -3,12 +3,12 @@ body {
   font-family: sans-serif;
 }
 
-.cv-inline-list {
+.resume-inline-list {
   padding: 0px;
   margin: 0px;
 }
 
-.cv-inline-list li {
+.resume-inline-list li {
   display: inline;
 }
 
@@ -17,11 +17,10 @@ body {
   margin-bottom: 12px;
 }
 
-.cv-section-title {
+.resume-section-title {
   font-size: 1.5em;
   padding: 7px 10px;
   color: #000000;
-  /*border-top: 2px solid #e4c264;*/
   border-bottom: 2px solid #000000;
 }
 
@@ -29,7 +28,7 @@ body {
   color: #000000 !important;
 }
 
-.cv-link, .cv-link:visited {
+.resume-link, .resume-link:visited {
   color: #000000;
 }
 
@@ -55,21 +54,14 @@ table thead {
 }
 
 body {
-  /*background-color: #262626;*/
   background-color: #EFEFEF;
 }
 
-.cv-container {
-  /*--------layout---------*/
+.resume-container {
   margin: 30px auto;
   padding: 20px;
   box-shadow: -10px 10px 30px #9F9F9F;
   max-width: 70%;
-
-  /*--------inner style---------*/
-/*    background-color: #2B2B2B;
-  color: #dfdfdf;
-*/
   background-color: #FFFFFF;
   color: #444444;
 }
@@ -85,35 +77,31 @@ body {
   color: #000000;
 }
 
-.cv-section {
-  padding: 10px;
-}
-
-.cv-section-body {
+.resume-section-body {
   margin: 5px 10px;
 }
 
-.cv-section-item {
+.resume-section-item {
   margin: 20px 0px;
 }
 
-.cv-section-item-title {
+.resume-section-item-title {
   font-weight: bold;
   color: #333333;
 }
 
-.cv-section-time {
+.resume-section-time {
   font-size: 0.9em;
   float: right;
   color: #9f9f9f;
 }
 
-.cv-section-smaller {
+.resume-section-smaller {
   font-size: 0.9em;
   color: #666666;
 }
 
-.cv-section-smallest {
+.resume-section-smallest {
   margin-top: 5px;
   font-size: 0.8em;
   color: #666666;
@@ -152,7 +140,7 @@ body {
 
   /*-----general layout----------*/
 
-  .cv-container {
+  .resume-container {
       max-width: 100%;
       box-shadow: none;
       margin: 0px;
@@ -164,44 +152,44 @@ body {
   }
 
   /*------individual section--------*/
-  .cv-section * {
+  .resume-section * {
       font-size: 12px;
   }
 
-  .cv-section-title {
+  .resume-section-title {
       page-break-inside: avoid;
       font-size: 16px;
   }
 
-  .cv-section-body {
+  .resume-section-body {
       margin: 0px;
       color: #999999;
   }
 
-  .cv-section-item {
+  .resume-section-item {
       page-break-inside: avoid;
       margin: 0.1in;
   }
 
-  .cv-section-item-course {
+  .resume-section-item-course {
       page-break-inside: auto;
   }
 
-  .cv-section-item-title {
+  .resume-section-item-title {
       color: #333333;
   }
 
-  .cv-section-smaller {
+  .resume-section-smaller {
       font-size: 1em;
   }
 
-  .cv-section-smallest {
+  .resume-section-smallest {
       font-size: 10.5px;
       color: #AAAAAA;
   }
 
   /*-------- section specific publication-----------*/
-  .cv-publication-author, .cv-publication-venue {
+  .resume-publication-author, .resume-publication-venue {
       color: #AAAAAA;
   }
 }
@@ -221,7 +209,7 @@ body {
       display: none;
   }
 
-  .cv-container {
+  .resume-container {
       /*--------layout---------*/
       max-width: 95%;
       padding: 20px 5px;
@@ -236,11 +224,11 @@ body {
       margin-top: 5px;
   }
 
-  .cv-section {
+  .resume-section {
       padding: 5px;
   }
 
-  .cv-section-time {
+  .resume-section-time {
       width: 100%;
       display: block;
   }
